@@ -1,6 +1,5 @@
 ---
-https://jesusjl.net/---
-title: "quarto-blog"
+title: "quarto blog"
 listing:
   contents: posts
   sort: "date desc"

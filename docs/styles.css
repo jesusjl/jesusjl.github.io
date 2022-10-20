@@ -92,6 +92,7 @@ div.quarto-about-jolla .about-image {
     margin-bottom: -20px;
     margin-top: -50px;
     margin-left: 20px;
+    justify-content: center;
   }
 
   div.quarto-about-jolla .about-sep {

@@ -54,5 +54,12 @@
     "title": "ggplot2 demo",
     "section": "",
     "text": "Air Quality\nFigure 1 further explores the impact of temperature on ozone level.\n\n\nCode\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\n\n\nFigure 1: Temperature and ozone level.\n\n\n\n\n\n\n\n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{jimenez2021,\n  author = {Jesus Jimenez},\n  editor = {},\n  title = {Ggplot2 Demo},\n  date = {2021-05-22},\n  url = {https://mm218.dev/posts/post-with-code},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nJesus Jimenez. 2021. “Ggplot2 Demo.” May 22, 2021. https://mm218.dev/posts/post-with-code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Spatialism",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI want to check something\n\n\n\n\n\n\nJesus Jimenez\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nI have reluctantly decided to create a new blog. Some thoughts on what I hope to achieve, having tried my hand at blogging so very many times before\n\n\n\n\n\n\nOct 2, 2022\n\n\nJesus Jimenez\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nI want to check something\n\n\n\n\n\n\nMay 22, 2021\n\n\nJesus Jimenez\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

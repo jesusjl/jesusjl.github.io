@@ -1,14 +1,19 @@
 ---
-title: ""
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  fields: [image, date, title, subtitle,description,  categories, author, reading-time]
-  categories: true
-  sort-ui: true
-  filter-ui: true
-page-layout: full
-title-block-banner: true
-toc: true
+title: "Jesús Jiménez López"
+description: "Geospatial Data Scientist"
+image: "profile.svg"
+about:
+  id: about
+  template: jolla
+  links:
+    - icon: linkedin
+      href: https://linkedin.com
+    - icon: github
+      href: https://github.com
+    - icon: mailbox2
+      href: mailto:lopezjimenezjesus@gmail.com
+    - icon: file-earmark-text
+      href: cv.pdf
+title-block-banner: false
 ---
+

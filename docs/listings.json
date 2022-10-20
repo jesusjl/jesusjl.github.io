@@ -14,5 +14,13 @@
       "/posts/welcome/index.html",
       "/posts/post-with-code/index.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/posts/python-example/index.html",
+      "/posts/welcome/index.html",
+      "/posts/post-with-code/index.html"
+    ]
   }
 ]

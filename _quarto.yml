@@ -4,15 +4,15 @@ project:
 
 website:
   title: "Spatialism"
-  site-url: https://mm218.dev
+  site-url: https://lopezjimenezjesus.github.io
   description: "Geospatial Ecology"
   navbar:
     background: "#fff"
     right:
       - text: "About"
         file: about.qmd
-      - text: "Blog"
-        file: index.qmd
+      # - text: "Blog"
+      #   file: index.qmd
       - text: "CV"
         file: cv.pdf
   page-footer: 

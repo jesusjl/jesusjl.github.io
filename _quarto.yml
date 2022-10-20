@@ -1,19 +1,32 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "quarto-blog"
+  title: "Spatialism"
+  site-url: https://mm218.dev
+  description: "Geospatial Ecology"
   navbar:
+    background: "#fff"
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - text: "About"
+        file: about.qmd
+      - text: "Blog"
+        file: index.qmd
+      - text: "CV"
+        file: cv.pdf
+  page-footer: 
+      left: "Copyright 2022, Jesús Jiménez" 
+      right: 
+        - icon: github
+          href: https://github.com/
+        - icon: twitter 
+          href: https://twitter.com/ 
 format:
   html:
-    theme: cosmo
+    theme: [litera, custom.scss]
     css: styles.css
+    toc: true
 
 editor: visual
 

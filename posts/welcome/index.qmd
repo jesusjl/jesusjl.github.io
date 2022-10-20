@@ -1,11 +1,24 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+description:
+  I have reluctantly decided to create a new blog. Some thoughts on 
+  what I hope to achieve, having tried my hand at blogging so very many times before
 date: "2022-10-02"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+This is the first post in a Quarto blog. Welcome!!
+
+:::{.callout-note}
+Note that there are five types of callouts, including:
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-tip}
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
 
 ![](thumbnail.jpg)
 

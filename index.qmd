@@ -1,12 +1,14 @@
 ---
-title: "quarto blog"
+title: ""
 listing:
   contents: posts
   sort: "date desc"
   type: default
+  fields: [image, date, title, subtitle,description,  categories, author, reading-time]
   categories: true
-  sort-ui: false
-  filter-ui: false
+  sort-ui: true
+  filter-ui: true
 page-layout: full
-title-block-banner: false
+title-block-banner: true
+toc: true
 ---

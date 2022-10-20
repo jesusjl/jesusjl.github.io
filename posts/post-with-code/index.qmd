@@ -1,13 +1,32 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2022-10-05"
+title: "ggplot2 demo"
+description:
+  I want to check something
+date: "5/22/2021"
 categories: [news, code, analysis]
 image: "image.jpg"
+format: 
+  html:
+    fig-width: 8
+    fig-height: 4
+    code-fold: true
 ---
 
-This is a post with executable code.
+The following graph represent the Air quality.
+
+### Air Quality
+
+@fig-airquality further explores the impact of temperature on ozone level.
 
 ```{r}
-1 + 1
+#| label: fig-airquality
+#| fig-cap: Temperature and ozone level.
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
 ```

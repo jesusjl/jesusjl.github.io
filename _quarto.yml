@@ -19,9 +19,13 @@ website:
       left: "Copyright 2022, Jesús Jiménez" 
       right: 
         - icon: github
-          href: https://github.com/
-        - icon: twitter 
-          href: https://twitter.com/ 
+          href: https://github.com/lopezjimenezjesus
+        - icon: linkedin
+          href: https://www.linkedin.com/in/lopezjimenezjesus
+        - icon: mailbox2
+          href: mailto:lopezjimenezjesus@gmail.com
+        - icon: file-earmark-text
+          href: cv.pdf
 format:
   html:
     theme: [litera, custom.scss]

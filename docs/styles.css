@@ -86,7 +86,7 @@ div.quarto-about-jolla .about-image {
   div.quarto-about-jolla .about-links {
     flex-direction: row;
     column-gap: 0px;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     row-gap: 15px;
     flex-wrap: wrap;
     margin-bottom: -20px;
@@ -124,6 +124,10 @@ div.quarto-about-jolla .about-image {
     padding-bottom: 0;
     background-color: #fff;
 
+  }
+
+  .nav-footer .nav-footer-left {
+    font-size: .825rem;
   }
 
 
